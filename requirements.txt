@@ -1,0 +1,45 @@
+Prérequis:
+
+	- Python version 3.10.11 (minimum pour assurer le bon fonctionnement et une bonne expérience)
+
+	- Pygame version 2.5.2 (minimum pour assurer le bon fonctionnement et une bonne expérience)
+
+
+Dépendances:
+
+	Dossier 'Fichier' contentant les dossiers 'Explosion_animations', 'Images' et 'Sons'.
+
+
+Installation:
+
+	- Installez python 3.10.11 (minimum) si ce n'est pas déjà fait. (https://www.python.org/downloads/)
+
+	- Importez les modules:
+		- pygame
+		- sys
+		- os
+		- random (import random as rd)
+		- math
+		- mixer (from pygame import mixer)
+
+	- Si les modules ne sont pas installés, exécutez la commande suivante pour chaque module dans le terminal:
+		python.exe -m pip install <nom_du_module> 	(Exemple: python.exe -m pip -install pygame)
+
+	- Si votre version de pip est trop ancienne, exécutez la commande suivante dans le terminal:
+		python.exe -m pip install --upgrade pip
+
+	- Si pygame est déjà installé mais a une version trop antérieure, exécutez la commande suivante dans le terminal:
+		python.exe -m pip install --upgrade pygame
+	 
+	- Si des problèmes persistent veuillez vous référer à la documentation: https://docs.python.org/fr/3/installing/
+
+
+Lancement:
+
+	- Ouvrez le dossier 'jeu'
+	- Il y a 2 possibilités pour lancer le projet:
+		- lancer l'exécutable 'Spaceship_Attack.exe'
+		- ouvrir puis lancer le code source 'Spaceship_Attack.py'
+
+	- Afin de pouvoir faire fonctionner le projet il faut que le dossier nommé 'Fichiers' 
+	  existe au même emplacement que le fichier utilisé pour lancer le projet.
